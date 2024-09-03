@@ -1,2 +1,1 @@
-# DART
-This is my new Repo for my DART codes.
+This is Repo for Dart Codes

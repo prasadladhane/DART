@@ -1,3 +1,13 @@
+class Parent{
+    Parent(){
+        print("Parent Constructor");
+    }
+}
+class Child extends Parent{
+    Child(){
+        print("Child Constructor");
+    }
+}
 void main(){
-    print("Hello World");
+    Parent obj=Parent();
 }

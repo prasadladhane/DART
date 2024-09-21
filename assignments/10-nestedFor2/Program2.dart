@@ -1,15 +1,14 @@
 import "dart:io";
-
 void main(){
+    int row=int.parse(stdin.readLineSync()!);
+    int num=row;
 
-    print("Enter the Number of Rows :");
-    int rows = int.parse(stdin.readLineSync()!);
-    int num1 = rows;
-    for(int i=1;i<=rows;i++){
+    for(int i=1;i<=row;i++){
         for(int j=1;j<=i;j++){
-            stdout.write("$num1 ");
+            stdout.write("$num ");
         }
-        num1--;
-        print("");
+        num--;
+        print(" ");
     }
+    print(" ");
 }

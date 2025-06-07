@@ -1,3 +1,7 @@
 void main(){
-    print("Hello Dart");
+    int jerNo=18;
+    String pName="Virat";
+
+    print("Jersey Number is: $jerNo");
+    print("Player Name is: $pName");
 }

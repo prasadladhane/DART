@@ -1,7 +1,7 @@
 class Person{
-    String name="Prasad";
+    String _name="Prasad";
 
     String getName(){
-        return name;
+        return _name;
     }
 }
